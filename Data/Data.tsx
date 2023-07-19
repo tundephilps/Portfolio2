@@ -56,7 +56,7 @@ const projects: ProjectProps[] = [
     id: 1,
     img: "/JobPortal.png",
     name: "Job Portal",
-    tools: ["HTML", "TailWind CSS", "Javascript", "React"],
+    tools: ["HTML", "TailWind ", "Javascript", "React"],
 
     link: "https://job-portal-tundephilps.vercel.app/",
 
@@ -72,45 +72,36 @@ const projects: ProjectProps[] = [
 
     github: "https://github.com/tundephilps/Dashboard-with-Typescript",
   },
+
   {
     id: 3,
-    img: "/Blog.png",
-    name: "Blog and News App",
-    tools: ["HTML", "CSS", "Javascript", "Next.js"],
-
-    link: "https://next-blog-tundephilps.vercel.app/",
-
-    github: "https://github.com/tundephilps/CInema-App",
-  },
-  {
-    id: 4,
     img: "/Fintech3.png",
     name: "Fintech Applications",
-    tools: ["HTML", "Tailwind CSS", "Javascript", "React"],
+    tools: ["HTML", "Tailwind", "Javascript", "React"],
 
     link: "https://financial-apps-tundephilps.vercel.app/",
 
     github: "https://github.com/tundephilps/Financial-Apps",
   },
   {
-    id: 5,
-    img: "/Realestate.png",
-    name: "Real Estate Marketplace with Next.js",
-    tools: ["HTML", "CSS", "Javascript", "Next.js"],
-
-    link: "https://real-estate-marketplace-tundephilps.vercel.app/",
-
-    github: "https://github.com/tundephilps/Next.js-RealEstate-Marketplace",
-  },
-  {
-    id: 6,
+    id: 4,
     img: "/hotel.png",
     name: "Hotel and Reservation Website",
-    tools: ["HTML", "Tailwnd CSS", "Javascript", "React"],
+    tools: ["HTML", "Tailwnd", "Javascript", "React"],
 
     link: "https://hotel-app-tundephilps.vercel.app/",
 
     github: "https://github.com/tundephilps/Hotel-App",
+  },
+  {
+    id: 5,
+    img: "/softwareui.png",
+    name: "Software UI Collections",
+    tools: ["HTML", "SCSS", "Javascript", "React"],
+
+    link: "https://softwares-ui.vercel.app/",
+
+    github: "https://github.com/tundephilps/Software-UI-Collections",
   },
   {
     id: 7,
@@ -128,9 +119,9 @@ const projects: ProjectProps[] = [
     name: "Landing Pages Collection",
     tools: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React"],
 
-    link: "https://landing-pages-collection-bay.vercel.app/",
+    link: "https://landing-pages-henna.vercel.app/",
 
-    github: "https://github.com/tundephilps/Landing-Pages-Collection",
+    github: "https://github.com/tundephilps/Landing-Page-Collection",
   },
 
   {
@@ -139,9 +130,9 @@ const projects: ProjectProps[] = [
     name: "Movie Search App",
     tools: ["HTML", "CSS", "Javascript", "React"],
 
-    link: "https://movie-search-theta-self.vercel.app/",
+    link: "https://optimum-cinema.vercel.app/",
 
-    github: "https://github.com/tundephilps/Movie-Search-App",
+    github: "https://github.com/tundephilps/Cinema-App",
   },
   {
     id: 10,
@@ -158,7 +149,7 @@ const projects: ProjectProps[] = [
     id: 11,
     img: "/Redux.png",
     name: "Redux Collection",
-    tools: ["HTML", "CSS", "Javascript", "React"],
+    tools: ["HTML", "CSS", "Javascript", "React", "Redux"],
 
     link: "https://redux-projects-tundephilps.vercel.app/",
 
@@ -206,7 +197,8 @@ const skills = [
   { name: "TypeScript", level: 60 },
   { name: "ReactJS", level: 85 },
   { name: "Redux", level: 75 },
-  { name: "NextJS", level: 65 },
+  { name: "NextJS", level: 85 },
+  { name: "React Native", level: 65 },
   { name: "Figma", level: 85 },
   { name: "Github", level: 95 },
   { name: "Firebase", level: 55 },

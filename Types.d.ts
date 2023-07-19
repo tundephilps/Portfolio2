@@ -23,6 +23,23 @@ type ProjectProps = {
   link: string;
   github: string;
 };
+type NativeProps = {
+  id: number;
+  img: string;
+  name: string;
+  tools: string[];
+  link: string;
+  github: string;
+};
+type NextProps = {
+  id: number;
+  img: string;
+  name: string;
+  tools: string[];
+  link: string;
+  github: string;
+};
+
 type CountUpProps = {
   start: number;
   end: number;
@@ -54,6 +71,8 @@ export {
   SkillBarProps,
   countUpItemsProps,
   ProjectProps,
+  NativeProps,
+  NextProps,
   ServiceProps,
   ContactsProps,
 };
