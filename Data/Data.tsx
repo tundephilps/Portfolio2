@@ -60,7 +60,7 @@ const projects: ProjectProps[] = [
 
     link: "https://job-portal-tundephilps.vercel.app/",
 
-    github: "https://github.com/tundephilps/Job-Portal",
+    github: "https://github.com/tundephilps/Jobs-Portal",
   },
   {
     id: 2,
@@ -79,9 +79,9 @@ const projects: ProjectProps[] = [
     name: "Fintech Applications",
     tools: ["HTML", "Tailwind", "Javascript", "React"],
 
-    link: "https://financial-apps-tundephilps.vercel.app/",
+    link: "https://fintech-apps-tundephilps.vercel.app/",
 
-    github: "https://github.com/tundephilps/Financial-Apps",
+    github: "https://github.com/tundephilps/Fintech-Apps",
   },
   {
     id: 4,
@@ -111,7 +111,7 @@ const projects: ProjectProps[] = [
 
     link: "https://game-store-tundephilps.vercel.app/",
 
-    github: "https://github.com/tundephilps/Game-Store-and-Arcade",
+    github: "https://github.com/tundephilps/Games-Store-Blog-Arcade",
   },
   {
     id: 8,
@@ -127,7 +127,7 @@ const projects: ProjectProps[] = [
   {
     id: 9,
     img: "/cinema.png",
-    name: "Movie Search App",
+    name: "Movie App",
     tools: ["HTML", "CSS", "Javascript", "React"],
 
     link: "https://optimum-cinema.vercel.app/",
@@ -153,17 +153,17 @@ const projects: ProjectProps[] = [
 
     link: "https://redux-projects-tundephilps.vercel.app/",
 
-    github: "https://github.com/tundephilps/Redux-Projects",
+    github: "https://github.com/tundephilps/Redux-Collection",
   },
   {
     id: 12,
     img: "/Softwares.png",
-    name: "Softwares, Applications and Clones",
+    name: "Software and Applications",
     tools: ["React", "Tailwind CSS"],
 
-    link: "https://apps-and-softwares-tundephilps.vercel.app/",
+    link: "https://apps-n-softwares.vercel.app/",
 
-    github: "https://github.com/tundephilps/SOFTWARES-AND-APPLICATIONS",
+    github: "https://github.com/tundephilps/Softwares-and-Applicaions",
   },
   {
     id: 13,
@@ -174,16 +174,6 @@ const projects: ProjectProps[] = [
     link: "https://university-brown.vercel.app/",
 
     github: "https://github.com/tundephilps/Educational-WebApp",
-  },
-  {
-    id: 14,
-    img: "/Ricky.png",
-    name: "Ricky and Morty App",
-    tools: ["HTML", "CSS", "Javascript", "React"],
-
-    link: "https://ricky-gules.vercel.app/",
-
-    github: "https://github.com/tundephilps/Ricky-and-Morty-App",
   },
 ];
 
