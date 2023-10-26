@@ -167,6 +167,16 @@ const projects: ProjectProps[] = [
   },
   {
     id: 13,
+    img: "/tulet.png",
+    name: "Property Firm Website",
+    tools: ["React", "Tailwind CSS"],
+
+    link: "https://www.tuletoaks.com/",
+
+    github: "https://github.com/tundephilps/Property-Firm-Webpage",
+  },
+  {
+    id: 14,
     img: "/page8.png",
     name: "Educational WebApp",
     tools: ["React", "Redux-Toolkit", "Tailwind CSS"],
