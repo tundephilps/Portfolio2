@@ -193,15 +193,16 @@ const skills = [
   { name: "Bootstrap", level: 100 },
   { name: "Tailwind CSS", level: 100 },
   { name: "Material UI ", level: 100 },
-  { name: "JavaScript", level: 75 },
-  { name: "TypeScript", level: 60 },
-  { name: "ReactJS", level: 85 },
+  { name: "JavaScript", level: 95 },
+  { name: "TypeScript", level: 90 },
+  { name: "ReactJS", level: 100 },
   { name: "Redux", level: 75 },
   { name: "NextJS", level: 85 },
-  { name: "React Native", level: 65 },
+  { name: "React Native", level: 95 },
   { name: "Figma", level: 85 },
   { name: "Github", level: 95 },
-  { name: "Firebase", level: 55 },
+  { name: "Firebase", level: 75 },
+  { name: "Sanity.IO", level: 75 },
 ];
 
 const contacts: ContactsProps[] = [

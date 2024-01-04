@@ -39,7 +39,7 @@ const Gallery = () => {
             <div>
               <Image
                 className="h-auto max-w-full rounded-lg"
-                src={selfie13}
+                src={selfie10}
                 alt=""
                 height={200}
                 width={300}
@@ -67,7 +67,7 @@ const Gallery = () => {
             <div>
               <Image
                 className=" max-w-full rounded-lg"
-                src={selfie10}
+                src={selfie13}
                 alt=""
                 width={300}
               />

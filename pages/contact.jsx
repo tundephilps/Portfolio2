@@ -1,11 +1,7 @@
 import Head from "next/head";
 import Wrapper from "@/components/Wrapper";
 import { contacts } from "@/Data/Data";
-import { FormEvent } from "react";
 export default function contact() {
-  function submitHandler(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-  }
   return (
     <>
       <Head>
@@ -21,9 +17,9 @@ export default function contact() {
           </div>
           <p className="leading-8 mb-8 text-sm max-w-xl mt-10 text-WhiteGray">
             If you&apos;re looking for a skilled frontend developer to help
-            bring your web application ideas to life, feel free to contact me.
-            Let&apos;s discuss how I can contribute to your team and deliver
-            top-notch results.
+            bring your Web and Mobile application ideas to life, feel free to
+            contact me. Let&apos;s discuss how I can contribute to your team and
+            deliver top-notch results.
           </p>
           <div>
             {contacts.map((contact) => (
@@ -38,7 +34,7 @@ export default function contact() {
           <div className="uppercase md:text-4xl text-3xl md:tracking-widest tracking-wide font-semibold mb-10">
             Contact Form
           </div>
-          <form onSubmit={submitHandler}>
+          <form>
             <div className="flex items-center border-b border-White py-2 mb-8">
               <input
                 type="text"
@@ -67,11 +63,22 @@ export default function contact() {
                 placeholder="Message"
               />
             </div>
-            <button
+            {/* <button
               type="submit"
-              className="mt-10 px-8 py-4 shadow-ShadowBlur uppercase text-sm cursor-pointer"
+              className="mt-10 px-8 py-4 shadow-ShadowBlur uppercase text-sm cursor-pointer hover:bg-yellow-300"
             >
               Send Message
+            </button> */}
+            <button className="btn mx-auto  shadow-ShadowBlur" type="button">
+              <strong>SEND MESSAGE</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+
+              <div id="glow">
+                <div className="circle"></div>
+                <div className="circle"></div>
+              </div>
             </button>
           </form>
         </div>

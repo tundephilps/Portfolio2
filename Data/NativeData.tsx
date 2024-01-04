@@ -32,6 +32,27 @@ const Nativeprojects: NativeProps[] = [
   },
   {
     id: 4,
+    img: "/buylets.png",
+    name: "BuyLetLive (Playstore)",
+    tools: ["HTML", "CSS", "Javascript", "React Native"],
+
+    link: "https://play.google.com/store/apps/details?id=com.buyletlive.buyletlive",
+
+    github: "https://github.com/tundephilps/React-Native-Property-Listing-App",
+  },
+  {
+    id: 5,
+    img: "/shuttler.png",
+    name: "Shuttlers (Playstore)",
+    tools: ["HTML", "CSS", "Javascript", "Google Maps API", "React Native"],
+
+    link: "https://play.google.com/store/apps/details?id=com.shuttlers.android",
+
+    github:
+      "https://github.com/tundephilps/React-Native-Transportation-Logistics-App.git",
+  },
+  {
+    id: 6,
     img: "/News.png",
     name: "News App",
     tools: ["HTML", "CSS", "Typescript", "Redux Toolkit", "React Native"],
@@ -41,7 +62,7 @@ const Nativeprojects: NativeProps[] = [
     github: "https://github.com/tundephilps/ReactNative-NewsApp",
   },
   {
-    id: 5,
+    id: 7,
     img: "/native.webp",
     name: "Coming Soon ",
     tools: ["HTML", "CSS", "Javascript", "React Native"],
