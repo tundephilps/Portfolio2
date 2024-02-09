@@ -33,7 +33,7 @@ const Nativeprojects: NativeProps[] = [
   {
     id: 4,
     img: "/buylets.png",
-    name: "BuyLetLive (Playstore)",
+    name: "BuyLetLive (Playstore & AppStore)",
     tools: ["HTML", "CSS", "Javascript", "React Native"],
 
     link: "https://play.google.com/store/apps/details?id=com.buyletlive.buyletlive",
@@ -43,7 +43,7 @@ const Nativeprojects: NativeProps[] = [
   {
     id: 5,
     img: "/shuttler.png",
-    name: "Shuttlers (Playstore)",
+    name: "Shuttlers (Playstore & App Store)",
     tools: ["HTML", "CSS", "Javascript", "Google Maps API", "React Native"],
 
     link: "https://play.google.com/store/apps/details?id=com.shuttlers.android",
@@ -53,6 +53,17 @@ const Nativeprojects: NativeProps[] = [
   },
   {
     id: 6,
+    img: "/hashIT.png",
+    name: "Hash IT (PlayStore & App Store)",
+    tools: ["HTML", "CSS", "JavaScript", "React Native"],
+
+    link: "https://play.google.com/store/apps/details?id=io.tryba.hashit",
+
+    github:
+      "https://github.com/tundephilps/React-Native-Social-Community-App.git",
+  },
+  {
+    id: 7,
     img: "/News.png",
     name: "News App",
     tools: ["HTML", "CSS", "Typescript", "Redux Toolkit", "React Native"],
@@ -62,7 +73,7 @@ const Nativeprojects: NativeProps[] = [
     github: "https://github.com/tundephilps/ReactNative-NewsApp",
   },
   {
-    id: 7,
+    id: 8,
     img: "/native.webp",
     name: "Coming Soon ",
     tools: ["HTML", "CSS", "Javascript", "React Native"],
