@@ -192,12 +192,14 @@ const skills = [
   { name: "CSS", level: 100 },
   { name: "Bootstrap", level: 100 },
   { name: "Tailwind CSS", level: 100 },
+  { name: "Styled Components", level: 100 },
   { name: "Material UI ", level: 100 },
   { name: "JavaScript", level: 95 },
   { name: "TypeScript", level: 90 },
   { name: "ReactJS", level: 100 },
   { name: "Redux", level: 75 },
-  { name: "NextJS", level: 85 },
+  { name: "Graph QL/ Apollo Client", level: 75 },
+  { name: "NextJS", level: 95 },
   { name: "React Native", level: 95 },
   { name: "Figma", level: 85 },
   { name: "Github", level: 95 },
@@ -206,7 +208,7 @@ const skills = [
 ];
 
 const contacts: ContactsProps[] = [
-  { id: 1, title: "Address", text: "Lagos, Nigeria" },
+  { id: 1, title: "Address", text: "WorldWide / Remote" },
   { id: 2, title: "Phone", text: "+2348034574154" },
   { id: 3, title: "Email", text: "tundephilps@gmail.com" },
 ];

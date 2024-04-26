@@ -23,7 +23,7 @@ export default function about() {
               - Introduction
             </div>
             <div className="font-semibold text-3xl mt-8 text-White uppercase">
-              FrontEnd React.js Developer, based in Lagos, Nigeria
+              FrontEnd Software Engineer (Web and Mobile)
             </div>
             <p className="text-WhiteGray text-sm mt-8 leading-7">
               {" "}

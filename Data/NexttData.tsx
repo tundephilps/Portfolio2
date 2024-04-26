@@ -67,6 +67,21 @@ const Nextprojects: NextProps[] = [
   },
   {
     id: 6,
+    img: "/student.png",
+    name: "Learning Mgt System",
+    tools: [
+      "HTML",
+      "Styled Components",
+      "Typescript",
+      "Next.js",
+      "Graph QL",
+      "Apollo Client",
+    ],
+    link: "https://recent-student-portal.vercel.app/",
+    github: "https://github.com/tundephilps/Learning-managment-System",
+  },
+  {
+    id: 7,
     img: "/sendstack.png",
     name: "Delivery App",
     tools: ["HTML", "TAILWIND CSS", "Javascript", "Next.js", "Jest"],

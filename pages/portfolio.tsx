@@ -27,8 +27,8 @@ export default function Portfolio() {
             My Masterpiece Collections
           </div>
           <p className="text-WhiteGray text-sm mt-8 leading-7 max-w-3xl">
-            I specialize in developing custom web applications that cater to
-            diverse business needs, from e-commerce platforms to data
+            I specialize in developing custom web and mobile applications that
+            cater to diverse business needs, from e-commerce platforms to data
             visualization dashboards, using the latest technologies and agile
             methodologies to deliver exceptional user experiences and measurable
             business outcomes.

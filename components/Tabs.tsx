@@ -77,8 +77,8 @@ const Tabs: React.FC = () => {
               ></span>
               <div className="flex items-center justify-center gap-4">
                 <TbBrandReactNative className="h-5 w-5 shrink-0 text-gray-500" />
-                <span className="text-sm font-medium text-gray-300">
-                  Native
+                <span className="text-sm font-medium text-gray-300 ">
+                  Mobile
                 </span>
               </div>
             </button>
