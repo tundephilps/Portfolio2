@@ -44,7 +44,10 @@ export default function Wrapper({
             <span className="IGBG"></span>
           </button>
         </Link>
-        <Link href={"https://www.twitter.com"} target={"_blank"}>
+        <Link
+          href={"https://www.linkedin.com/in/tunde-akinola-282706218/"}
+          target={"_blank"}
+        >
           <button className="LinkedinBtn">
             <span className="LNsvgContainer">
               <svg

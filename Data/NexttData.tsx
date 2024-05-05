@@ -82,6 +82,23 @@ const Nextprojects: NextProps[] = [
   },
   {
     id: 7,
+    img: "/Ecommerce.png",
+    name: "E-commerce Store with Admin Dashboard",
+    tools: [
+      "HTML",
+      "Daisy UI",
+      "Typescript",
+      "Next.js",
+      "Mongo DB",
+      "Zustard",
+      "Cloudinary",
+      "Paypal",
+    ],
+    link: "https://ottoman-beds-ecommerce-main-tundephilps-tundephilps-projects.vercel.app/",
+    github: "https://github.com/tundephilps/FullStack-Ecommerce",
+  },
+  {
+    id: 8,
     img: "/sendstack.png",
     name: "Delivery App",
     tools: ["HTML", "TAILWIND CSS", "Javascript", "Next.js", "Jest"],
