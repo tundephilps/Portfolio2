@@ -1,15 +1,20 @@
 import Head from "next/head";
 import Wrapper from "@/components/Wrapper";
 import { contacts } from "@/Data/Data";
+import Rat from "@/components/Rat";
 export default function contact() {
   return (
-    <>
+    <div className="overflow-y-hidden">
       <Head>
         <title>Tunde | Contact</title>
       </Head>
+      <Rat />
+
+      <h1 className="neon mt-4">Everyday am Shuffling......</h1>
+
       <Wrapper
         pageIndex={4}
-        className="text-White gap-12 sm:py-10 flex flex-col justify-center items-center lg:flex-row pt-28  lg:pt-20 lg:h-[100vh]"
+        className=" text-White  gap-12 sm:py-10 flex flex-col justify-center items-center lg:flex-row pt-28  lg:pt-20 lg:h-[100vh]"
       >
         <div className="md:px-6 py-6 text-center">
           <div className="uppercase md:text-4xl text-3xl md:tracking-widest tracking-wide font-semibold">
@@ -83,6 +88,6 @@ export default function contact() {
           </form>
         </div>
       </Wrapper>
-    </>
+    </div>
   );
 }
