@@ -104,6 +104,14 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Software-UI-Collections",
   },
   {
+    id: 6,
+    img: "/VTU.png",
+    name: "VTU WebApp",
+    tools: ["HTML", "Tailwind CSS", "Javascript", "React"],
+    link: "https://waradata.vercel.app/",
+    github: "https://github.com/tundephilps/Software-UI-Collections",
+  },
+  {
     id: 7,
     img: "/arcade.png",
     name: "Game Store & Arcade",
@@ -124,6 +132,16 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Landing-Page-Collection",
   },
 
+  {
+    id: 15,
+    img: "/chatbot.png",
+    name: "AI ChatBot",
+    tools: ["HTML", "Tailwind CSS", "Javascript", "RTK Query", "React"],
+
+    link: "https://chatbot-ai-lime.vercel.app/",
+
+    github: "https://github.com/tundephilps/AI-ChatBot",
+  },
   {
     id: 9,
     img: "/cinema.png",
