@@ -94,6 +94,16 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Hotel-App",
   },
   {
+    id: 15,
+    img: "/hospital.png",
+    name: "Hospital Website",
+    tools: ["HTML", "Tailwnd", "Javascript", "React"],
+
+    link: "https://jece-hospital-4gx58yryz-tundephilps-projects.vercel.app/",
+
+    github: "https://github.com/tundephilps/JECE-HOSPITAL",
+  },
+  {
     id: 5,
     img: "/softwareui.png",
     name: "Software UI Collections",
