@@ -97,12 +97,33 @@ const projects: ProjectProps[] = [
     id: 15,
     img: "/hospital.png",
     name: "Hospital Website",
-    tools: ["HTML", "Tailwnd", "Javascript", "React"],
+    tools: ["HTML", "Tailwnd", "TypeScript", "React"],
 
-    link: "https://jece-hospital-4gx58yryz-tundephilps-projects.vercel.app/",
+    link: "https://jece-hospital.vercel.app/",
 
     github: "https://github.com/tundephilps/JECE-HOSPITAL",
   },
+  {
+    id: 16,
+    img: "/mimolar.png",
+    name: "Mimolar Store",
+    tools: ["HTML", "Tailwnd", "JavaScript", "React"],
+
+    link: "https://milolar-store.vercel.app/",
+
+    github: "https://github.com/tundephilps/Milolar-Store",
+  },
+  {
+    id: 17,
+    img: "/travels.png",
+    name: "Innobs Travels and Tours",
+    tools: ["HTML", "Tailwnd", "JavaScript", "React"],
+
+    link: "https://innobs-travel.vercel.app/",
+
+    github: "https://github.com/tundephilps/Travels-and-Tour",
+  },
+
   {
     id: 5,
     img: "/softwareui.png",
