@@ -99,6 +99,14 @@ const Nextprojects: NextProps[] = [
   },
   {
     id: 8,
+    img: "/Autos.png",
+    name: "Halal Autos",
+    tools: ["HTML", "Tailwind", "Typescript", "Next.js"],
+    link: "https://halaauto.vercel.app/",
+    github: "https://github.com/tundephilps/Halaautos",
+  },
+  {
+    id: 9,
     img: "/sendstack.png",
     name: "Delivery App",
     tools: ["HTML", "TAILWIND CSS", "Javascript", "Next.js", "Jest"],
