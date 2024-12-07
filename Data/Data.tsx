@@ -54,16 +54,25 @@ const countUpItems: countUpItemsProps[] = [
 const projects: ProjectProps[] = [
   {
     id: 1,
-    img: "/JobPortal.png",
-    name: "Job Portal",
+    img: "/Auction.png",
+    name: "NTF Auction SAAS",
     tools: ["HTML", "TailWind ", "Javascript", "React"],
 
-    link: "https://job-portal-tundephilps.vercel.app/",
+    link: "https://5-ksana.vercel.app/",
 
-    github: "https://github.com/tundephilps/Jobs-Portal",
+    github: "https://github.com/tundephilps/5KSANA",
   },
   {
     id: 2,
+    img: "/VTU.png",
+    name: "VTU WebApp",
+    tools: ["HTML", "Tailwind CSS", "Javascript", "React"],
+    link: "https://waradata.vercel.app/",
+    github: "https://github.com/tundephilps/Software-UI-Collections",
+  },
+
+  {
+    id: 3,
     img: "/Dashboard.png",
     name: "Dashboard with Typescript",
     tools: ["HTML", "CSS", "TypeScript", "React"],
@@ -74,7 +83,7 @@ const projects: ProjectProps[] = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: "/Fintech3.png",
     name: "Fintech Applications",
     tools: ["HTML", "Tailwind", "Javascript", "React"],
@@ -84,7 +93,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Fintech-Apps",
   },
   {
-    id: 4,
+    id: 5,
     img: "/hotel.png",
     name: "Hotel and Reservation Website",
     tools: ["HTML", "Tailwnd", "Javascript", "React"],
@@ -94,7 +103,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Hotel-App",
   },
   {
-    id: 15,
+    id: 6,
     img: "/hospital.png",
     name: "Hospital Website",
     tools: ["HTML", "Tailwnd", "TypeScript", "React"],
@@ -104,7 +113,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/JECE-HOSPITAL",
   },
   {
-    id: 16,
+    id: 7,
     img: "/mimolar.png",
     name: "Mimolar Store",
     tools: ["HTML", "Tailwnd", "JavaScript", "React"],
@@ -114,7 +123,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Milolar-Store",
   },
   {
-    id: 17,
+    id: 8,
     img: "/travels.png",
     name: "Innobs Travels and Tours",
     tools: ["HTML", "Tailwnd", "JavaScript", "React"],
@@ -123,9 +132,19 @@ const projects: ProjectProps[] = [
 
     github: "https://github.com/tundephilps/Travels-and-Tour",
   },
+  {
+    id: 9,
+    img: "/JobPortal.png",
+    name: "Job Portal",
+    tools: ["HTML", "TailWind ", "Javascript", "React"],
+
+    link: "https://job-portal-tundephilps.vercel.app/",
+
+    github: "https://github.com/tundephilps/Jobs-Portal",
+  },
 
   {
-    id: 5,
+    id: 10,
     img: "/softwareui.png",
     name: "Software UI Collections",
     tools: ["HTML", "SCSS", "Javascript", "React"],
@@ -134,16 +153,9 @@ const projects: ProjectProps[] = [
 
     github: "https://github.com/tundephilps/Software-UI-Collections",
   },
+
   {
-    id: 6,
-    img: "/VTU.png",
-    name: "VTU WebApp",
-    tools: ["HTML", "Tailwind CSS", "Javascript", "React"],
-    link: "https://waradata.vercel.app/",
-    github: "https://github.com/tundephilps/Software-UI-Collections",
-  },
-  {
-    id: 7,
+    id: 11,
     img: "/arcade.png",
     name: "Game Store & Arcade",
     tools: ["HTML", "CSS", "Javascript", "React"],
@@ -153,7 +165,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Games-Store-Blog-Arcade",
   },
   {
-    id: 8,
+    id: 12,
     img: "/collection.png",
     name: "Landing Pages Collection",
     tools: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React"],
@@ -164,7 +176,7 @@ const projects: ProjectProps[] = [
   },
 
   {
-    id: 15,
+    id: 13,
     img: "/chatbot.png",
     name: "AI ChatBot",
     tools: ["HTML", "Tailwind CSS", "Javascript", "RTK Query", "React"],
@@ -174,7 +186,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/AI-ChatBot",
   },
   {
-    id: 9,
+    id: 14,
     img: "/cinema.png",
     name: "Movie App",
     tools: ["HTML", "CSS", "Javascript", "React"],
@@ -184,7 +196,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Cinema-App",
   },
   {
-    id: 10,
+    id: 15,
     img: "/CoreReact.png",
     name: "Core React Projects",
     tools: ["HTML", "CSS", "Javascript", "React"],
@@ -195,7 +207,7 @@ const projects: ProjectProps[] = [
   },
 
   {
-    id: 11,
+    id: 16,
     img: "/Redux.png",
     name: "Redux Collection",
     tools: ["HTML", "CSS", "Javascript", "React", "Redux"],
@@ -205,7 +217,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Redux-Collection",
   },
   {
-    id: 12,
+    id: 17,
     img: "/Softwares.png",
     name: "Software and Applications",
     tools: ["React", "Tailwind CSS"],
@@ -215,7 +227,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Softwares-and-Applicaions",
   },
   {
-    id: 13,
+    id: 18,
     img: "/tulet.png",
     name: "Property Firm Website",
     tools: ["React", "Tailwind CSS"],
@@ -225,7 +237,7 @@ const projects: ProjectProps[] = [
     github: "https://github.com/tundephilps/Property-Firm-Webpage",
   },
   {
-    id: 14,
+    id: 19,
     img: "/page8.png",
     name: "Educational WebApp",
     tools: ["React", "Redux-Toolkit", "Tailwind CSS"],
